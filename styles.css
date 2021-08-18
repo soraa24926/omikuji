@@ -1,0 +1,46 @@
+body{
+    background:  #efefef;
+}
+
+#btn{
+    /* 幅 */
+    width: 200px;
+    /* 高さ */
+    height: 200px;
+    /* 丸背景 */
+    background: #ef454a;
+    /* 画像の角に丸みつかせる*/
+    border-radius: 50%;
+    /* 枠の外余白*/
+    margin: 30px auto;
+    /* 文字置く左右 */
+    text-align: center;
+    /* 文字の高さ */
+    line-height: 200px;
+    /* 文字色 */
+    color: #fff;
+    /* 文字太さ */
+    font-weight: bold;
+    /* 文字大きさ */
+    font-size: 42px;
+    /* カーソル形変更 */
+    cursor: pointer;
+    /* 立体化 */
+    box-shadow: 0 10px 0 #d1483e;
+    /* 文章の範囲選択 */
+    user-select: none;
+}
+
+/* ボタン触れられてる時 */
+#btn:hover{
+    /* ボタン薄く */
+    opacity: 0.9;
+}
+
+/* ボタン押されてる時 */
+#btn:active{
+    /* 立体化 */
+    box-shadow: 0 5px 0 #d1483e;
+    /* 枠の外 */
+    margin-top: 35px;
+}
